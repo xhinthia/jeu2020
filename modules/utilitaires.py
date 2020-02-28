@@ -12,7 +12,7 @@ def pick_number(chance,total):
     a=random.choice(liste)
     return a
 
-def menu_3_choix(titre,choix_1,choix_2,choix_3,choix_0):
+def menu_x_choix(titre,*arg):
 	os.system('cls' if os.name == 'nt' else 'clear')
 	print ("**********************************")
 	print ("")
@@ -22,14 +22,29 @@ def menu_3_choix(titre,choix_1,choix_2,choix_3,choix_0):
 	print (" ")
 	print ("<><><><><><><><><><><><><><><><><>")
 	print ("")
-	print ("1 > "+str(choix_1))
-	print ("")
-	print ("2 > "+str(choix_2))
-	print ("")
-	print ("3 > "+str(choix_3))
-	print ("")
-	print ("0 > "+str(choix_0))
+	j=1
+	for i in (arg):
+		print (str(j)+" > "+str(i))
+		j+=1
 	print ("")
 	print ("<><><><><><><><><><><><><><><><><>")
 	choix=input()
 	return choix
+
+def consult(titre,*arg):
+	os.system('cls' if os.name == 'nt' else 'clear')
+	print ("**********************************")
+	print ("")
+	print ("	"+str(titre))
+	print ("")
+	print ("**********************************")
+	print ("")
+	print ("<><><><><><><><><><><><><><><><><>")
+	print ("")
+	j=1
+	for i in (arg):
+		print ("Palier "+str(j)+" : "+str(i))
+		j+=1
+	print ("")
+	print ("<><><><><><><><><><><><><><><><><>")
+	input()
