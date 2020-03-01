@@ -47,77 +47,76 @@ caractéristique:
 	- Force
 	- Armure
 	- vitesse
-	- technique (augmente les chances de réaliser un sort)
-	- précision (augmente les chances de toucher)
-	- ténacité (chance de résister à un effet de statut)
-	- brutalité (dcc ou %arpen si 7)
+	- technique (augmente les proba)
+	- précision (augmente les chances de coup critique)
+	- agilité (chance d'esquiver)
+	- brutalité (dcc)
 
 
 puissance :
-1) +10% cc frappe lourde
-2) Force / vie
-3) +10% cc
-4) brutalité / technique
-5) +10% cc / si cc -> 30%arpen
-6) force / vie / force et vie
-7) -force +20%cc + 25%dcc /  60%arpen lors d'un cc
-8) brutalité / technique / les 2
+1) les cc avec frappe lourde ignorent 10% armure
+2) précision / brutalité / technique
+3) soit préci + bruta soit préci + tech soit bruta + tech
+4) précision / brutalité / technique
+5) +10% arpen / +1% chance de stun
+6) précision / brutalité / technique
+7) +15% arpen / +100% arpen sur les cibles stun
+8) soit préci + bruta soit préci + tech soit bruta + tech
 9) 1 pt d'energie en plus
 
-
 vivacité :
-1) 5% rejouer
-2) force / vitesse
-3) +5% rejouer
-4) précision / technique
-5) Si rejouer augmente vitesse / si rejouer augmente force
-6) force / vitesse / force et vitesse
-7) +10% rejouer mais n'augmente plus force ou vitesse / -5% rejouer mais augmente la force et la vitesse
-8) précision / technique / les 2
+1) frappe rapide à une chance de vous rendre 1 point d'énergie
+2) technique / vitesse / brutalité
+3) tech + vit / tech + brut / vit + brut
+4) tech / vit / brut
+5) Effectuer 5 frappe rapides, augmente votre vitesse pour le reste du cbt / les frappes rapides successives infligent plus de dégats
+6) tech / vit / brut
+7) +30% de chance vous rendre 2 points d'énergie au lieu de 1 / la 5e frappes successives est un coup critique
+8) tech + brut / tech + brut / vit + brut
 9) 1 pt d'énergie en plus
 
-résistance :
-1) 10% chance de bloquer
-2) vie / armure
-3) 10% chance de bloquer
-4) ténacité / technique
-5) 20% blocage / lorsque bloque inflige des dégat en fonction de l'armure
-6) vie / armure / les 2
-7) augmente les chances de blocage mais réduit la réduction de dégat / réduit les chances de blocage mais augmente la réduction de dgt
-8) ténacité / technique / les 2
-9) 1 pt nrj
+Intouchable :
+1) bouclier a une chance de bloquer l'attaque (-25% dégat)
+2) vie / armure / technique
+3) vie + technique / vie + armure / technique + armure
+4) vie / armure / technique
+5) Inflige dégat d'armure lorsque vous bloquez / blocage puissant (-50% dégat)
+6) vie / armure / technique
+7) blocage vous rend de la vie / blocage parfait (-80% dégat)
+8) vie + armure / vie + technique / technique + armure
+9) 1 pt d'énergie en plus
 
 ------------------------
 
 Insaisissable :
-1) 
-2)
-3)
-4)
-5) % chance de esquive
-6)
-7)
-8)
-9) après une esquive vous pouvez contre-attaquer (cc obligatoire)
+1) ta vitesse augmente tes chances d'esquiver
+2) agi / brut / vitesse
+3) agi + brut / agi + vitesse / vit + burt
+4) agi / brut / vit
+5) après une esquive, permet de lancer le sort 4 = contre-attaque (cc obligatoire)
+6) agi / brut / vitesse
+7) agi + brut / agi + vit / brut + vit
+8) agi / brut / vit
+9) augmente vos chances d'esquiver lorsque tu perds de la vie
 
 Elémentaire :
-1) technique / 
-2)
-3)
-4)
-5) % place un sceau sur la cible (parmi feu, glace, foudre) max 3 (dépend de la technique)
-6)
-7)
-8)
-9) permet d'activer 3 sceaux et lancer un sort en fonction
+1) chance de poser un sceau en infligeant des dégats
+2) technique / vie / vitesse
+3) tech + vie / vie + vit / tech + vit
+4) technique / armure / vitesse
+5) permet d'activer 3 sceaux (sort 4 = absorption élementaire) pour lancer un sort parmi une liste aléatoire
+6) technique / vie / vitesse
+7) tech + armure / tech + vit / vit + armure
+8) tech / armure / vitesse
+9) faible chance de conserver 1 sceau aléatoire après les avoir absorbés.
 
 Sanguinaire :
-1) 
-2)
-3)
-4)
-5) les coup ont une chance d'infliger plaie sur la cible (les cc ont 2 fois plus de chance)
-6)
-7)
-8)
-9) Torture : intensifie les plaies mais réduit votre force
+1) les coups critiques infligent plaie sur la cible
+2) préci / vie / force
+3) préci + for / vie + for / préci + vie
+4) préci / vie / force
+5) Utilise le reste de tes points d'énergie pour infliger autant de plaie sur la cible, permet 1 pt d'énergie pour le reste du combat
+6) préci / vie / force
+7) préci + vie / préci + for / vie + for
+8) préci / vie / force
+9) 30% de chance de ne pas perdre de pt d'énergie

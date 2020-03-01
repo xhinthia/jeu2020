@@ -12,8 +12,9 @@ def pick_number(chance,total):
     a=random.choice(liste)
     return a
 
-def menu_x_choix(titre,*arg):
-	os.system('cls' if os.name == 'nt' else 'clear')
+def menu_x_choix(clean,titre,*arg):
+	if clean==1:
+		os.system('cls' if os.name == 'nt' else 'clear')
 	print ("**********************************")
 	print ("")
 	print ("	"+str(titre))
@@ -31,8 +32,9 @@ def menu_x_choix(titre,*arg):
 	choix=input()
 	return choix
 
-def consult(titre,*arg):
-	os.system('cls' if os.name == 'nt' else 'clear')
+def consult(clean,titre,*arg):
+	if clean==1:
+		os.system('cls' if os.name == 'nt' else 'clear')
 	print ("**********************************")
 	print ("")
 	print ("	"+str(titre))
@@ -48,3 +50,8 @@ def consult(titre,*arg):
 	print ("")
 	print ("<><><><><><><><><><><><><><><><><>")
 	input()
+
+def affichage_trait(clean,trait,*arg):
+	if clean==1:
+		os.system('cls' if os.name == 'nt' else 'clear')
+	
