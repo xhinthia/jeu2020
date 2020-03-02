@@ -81,11 +81,11 @@ if os.path.isfile("maitrises.txt")=="false":
 
 a=1
 while a==1:
-	choix=menu_x_choix(1,"MENU PRINCIPAL","Expédition","Aptitudes","Quartier marchand","Quitter")
+	choix=menu_x_choix(1,"MENU PRINCIPAL","Expédition","Aptitudes","Quitter")
 	if str(choix)=="4":
 		quit()
 	elif str(choix)=="1":
-		print ("En cours de dev")
+		
 	elif str(choix)=="2":
 		b=1
 		while b==1:
@@ -154,25 +154,6 @@ while a==1:
 							consult(1,"CLAIRVOYANCE")
 						elif str(choix)=="9":
 							consult(1,"SOUFFRANCE")
-			elif str(choix)=="3":
-				print ("En cours de dev")
-			else:
-				pass
-	elif str(choix)=="3":
-		b=1
-		while b==1:
-			choix=menu_x_choix(1,"QUARTIER MARCHAND","Marché noir","Hôtel des ventes","Joaillerie","Retour")
-			if str(choix)=="4":
-				b=0
-				pass
-			elif str(choix)=="1":
-				choix=menu_x_choix("MARCHE NOIR","Adrenaline","Pioche de Stakhanov","Potion d'invisibilité","Retour")
-			elif str(choix)=="2":
-				choix=menu_x_choix("HOTEL DES VENTES","Acheter des pierres","Vendre des pierres","Investir","Retour")
-			elif str(choix)=="3":
-				choix=menu_x_choix("JOAILLERIE","Fabriquer","Polir","Investir","Retour")
-			else:
-				pass
 	else:
 		pass
     
