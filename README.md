@@ -49,7 +49,7 @@ caractéristique:
 	- vitesse
 	- technique (augmente les proba)
 	- précision (augmente les chances de coup critique)
-	- agilité (chance d'esquiver)
+	- toucher (augmente tes chances de toucher)
 	- brutalité (dcc)
 
 

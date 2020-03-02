@@ -1,4 +1,5 @@
 import os
+import os.path
 import sys
 import random
 
@@ -32,7 +33,7 @@ def menu_x_choix(clean,titre,*arg):
 	choix=input()
 	return choix
 
-def consult(clean,titre,*arg):
+def affichage_global(clean,titre,*arg):
 	if clean==1:
 		os.system('cls' if os.name == 'nt' else 'clear')
 	print ("**********************************")
@@ -51,9 +52,54 @@ def consult(clean,titre,*arg):
 	print ("<><><><><><><><><><><><><><><><><>")
 	input()
 
-def affichage_trait(clean,trait,*arg):
+def selection_trait_perso(clean,trait,*arg):
 	if clean==1:
 		os.system('cls' if os.name == 'nt' else 'clear')
+	liste = []
+	with open("trait.txt","r") as f_read:
+		for line in f_read:
+			line=line.strip()
+			liste.append(line)
+	f_read.close()
+	p0 = liste[0]
+	p1 = liste[1]
+	p2 = liste[2]
+	p3 = liste[3]
+	p4 = liste[4]
+	p5 = liste[5]
+	p6 = liste[6]
+	p7 = liste[7]
+	p8 = liste[8]
+	p9 = liste[9]
+	if str(p0)=="1":
+		p0="Vivacité"
+		p1="frappe rapide à 5% de chance de vous rendre 1 point d'énergie"
+		if str(p2)=="1":
+			p2="+3% de technique"
+		elif str(p2)=="2":
+			p2="+3% de vitesse"
+		elif str(p2)=="3":
+			p2=""
+	elif str(p0)=="2":
+		p0="Puissance"
+	elif str(p0)=="3":
+		p0="Résistance"
+	print ("**********************************")
+	print ("")
+	print ("	"+str(p0))
+	print ("")
+	print ("**********************************")
+	print ("")
+	print ("<><><><><><><><><><><><><><><><><>")
+	print ("")
+	j=1
+	for i in (arg):
+		print ("Palier "+str(j)+" : "+str(i))
+		j+=1
+	print ("")
+	print ("<><><><><><><><><><><><><><><><><>")
+	input()
+
 
 def bandeau(clean,etape):
 	if clean==1:
@@ -79,3 +125,11 @@ def bandeau_combat(clean,):
 	print (" ")
 	print ("carac ennemi")
 	print ("___________________________________________________________________________________________________________________________________")
+
+a=1
+i=0
+while a==1:
+	i+=1
+	if str(p+i)=="0":
+		a=0
+		pass
