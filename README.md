@@ -54,69 +54,69 @@ caractéristique:
 
 
 puissance :
-1) les cc avec frappe lourde ignorent 10% armure
-2) précision / brutalité / technique
-3) soit préci + bruta soit préci + tech soit bruta + tech
-4) précision / brutalité / technique
-5) +10% arpen / +1% chance de stun
-6) précision / brutalité / technique
-7) +15% arpen / +100% arpen sur les cibles stun
-8) soit préci + bruta soit préci + tech soit bruta + tech
+1) frappe lourde a une chance d'ignorer l'armure de la cible (2% + technique)
+2) +3%préci / +10%brut / +2%tech
+3) +3%préci / +10%brut / +2%tech
+4) +3%préci / +10%brut / +2%tech
+5) les cc ont une chance d'ignorer l'armure ennemi (10% + technique)
+6) +3%préci / +10%brut / +2%tech
+7) +3%préci / +10%brut / +2%tech
+8) +3%préci / +10%brut / +2%tech
 9) 1 pt d'energie en plus
 
 vivacité :
-1) frappe rapide à une chance de vous rendre 1 point d'énergie
-2) technique / vitesse / brutalité
-3) tech + vit / tech + brut / vit + brut
-4) tech / vit / brut
-5) Effectuer 5 frappe rapides, augmente votre vitesse pour le reste du cbt / les frappes rapides successives infligent plus de dégats
-6) tech / vit / brut
-7) +30% de chance vous rendre 2 points d'énergie au lieu de 1 / la 5e frappes successives est un coup critique
-8) tech + brut / tech + brut / vit + brut
+1) frappe rapide à une chance de vous rendre 1 point d'énergie (1% + technique)
+2) +2%tech / vit / +10%brut
+3) +2%tech / vit / +10%brut
+4) +2%tech / vit / +10%brut
+5) les dégats des frappes rapides successives augmentent (seulement sur le même tour) - +10%
+6) +2%tech / vit / +10%brut
+7) +2%tech / vit / +10%brut
+8) +2%tech / vit / +10%brut
 9) 1 pt d'énergie en plus
 
 Intouchable :
-1) bouclier a une chance de bloquer l'attaque (-25% dégat)
-2) vie / armure / technique
-3) vie + technique / vie + armure / technique + armure
-4) vie / armure / technique
-5) Inflige dégat d'armure lorsque vous bloquez / blocage puissant (-50% dégat)
-6) vie / armure / technique
-7) blocage vous rend de la vie / blocage parfait (-80% dégat)
-8) vie + armure / vie + technique / technique + armure
+1) bouclier a une chance de bloquer l'attaque (1% + technique)
+2) vie / armu / +2%tech
+3) vie / armu / +2%tech
+4) vie / armu / +2%tech
+5) Inflige dégat d'armure lorsque vous bloquez
+6) vie / armu / +2%tech
+7) vie / armu / +2%tech
+8) vie / armu / +2%tech
 9) 1 pt d'énergie en plus
 
 ------------------------
 
 Insaisissable :
-1) ta vitesse augmente tes chances d'esquiver
-2) agi / brut / vitesse
-3) agi + brut / agi + vitesse / vit + burt
-4) agi / brut / vit
+1) +1% de chance d'esquiver (fonction technique)
+2) +1%tech / +6%brut / vit
+3) +1%tech / +6%brut / vit
+4) +1%tech / +6%brut / vit
 5) après une esquive, permet de lancer le sort 4 = contre-attaque (cc obligatoire)
-6) agi / brut / vitesse
-7) agi + brut / agi + vit / brut + vit
-8) agi / brut / vit
-9) augmente vos chances d'esquiver lorsque tu perds de la vie
+6) +1%tech / +6%brut / vit
+7) +1%tech / +6%brut / vit
+8) +1%tech / +6%brut / vit
+9) votre vitesse augmente vos chances d'esquiver
 
 Elémentaire :
 1) chance de poser un sceau en infligeant des dégats
-2) technique / vie / vitesse
-3) tech + vie / vie + vit / tech + vit
-4) technique / armure / vitesse
+2) +3%tech / armu / vit
+3) +3%tech / armu / vit
+4) +3%tech / armu / vit
 5) permet d'activer 3 sceaux (sort 4 = absorption élementaire) pour lancer un sort parmi une liste aléatoire
-6) technique / vie / vitesse
-7) tech + armure / tech + vit / vit + armure
-8) tech / armure / vitesse
-9) faible chance de conserver 1 sceau aléatoire après les avoir absorbés.
+6) +3%tech / armu / vit
+7) +3%tech / armu / vit
+8) +3%tech / armu / vit
+9) 20% chance de conserver 1 sceau aléatoire après les avoir absorbés.
 
 Sanguinaire :
-1) les coups critiques infligent plaie sur la cible
-2) préci / vie / force
-3) préci + for / vie + for / préci + vie
-4) préci / vie / force
-5) Utilise le reste de tes points d'énergie pour infliger autant de plaie sur la cible, permet 1 pt d'énergie pour le reste du combat
-6) préci / vie / force
-7) préci + vie / préci + for / vie + for
-8) préci / vie / force
-9) 30% de chance de ne pas perdre de pt d'énergie
+1) infliger des dégats a 40% de chance de poser plaie sur la cible
+2) +3%préci / vie / force
+3) +3%préci / vie / force
+4) +3%préci / vie / force
+5) les cc pose plaies sur la cible
+6) +3%préci / vie / force
+7) +3%préci / vie / force
+8) +3%préci / vie / force
+9) Boucherie : consommer 10 plaies sur la cible pour infliger l'équivalent de 2 fois les dégats infligés à chaque début de tour

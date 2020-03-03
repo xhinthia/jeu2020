@@ -5,6 +5,16 @@ import random
 from modules.utilitaires import *
 import time
 
+point_aptitude=18
+vie=1000
+force=325
+arm=150
+vit=100
+preci=1
+brut=50
+touch=1
+tech=1
+
 if os.path.isfile("traits.txt")=="false":
 	trait0=0
 	trait1=0
@@ -194,7 +204,7 @@ elif str(choix)=="2":
 		if str(choix)=="4":
 			quit()
 		elif str(choix)=="1":
-			combat
+			print ("en cours de dev")
 		elif str(choix)=="2":
 			b=1
 			while b==1:
@@ -203,7 +213,30 @@ elif str(choix)=="2":
 					b=0
 					pass
 				elif str(choix)=="1":
-
+					if point_aptitude>0:
+						if str(trait0)=="0":
+							bis=1
+							while bis==1:
+								choix=menu_x_choix(1,"TRAITS","Vivacité","Puissance","Résistance","Retour")
+								if str(choix)=="4":
+									bis=0
+									pass
+								elif str(choix)=="1":
+									trait0="Vivacité"
+									bis=0
+								elif str(choix)=="2":
+									trait0="Puissance"
+									bis=0
+								elif str(choix)=="3":
+									trait0="Résistance"
+									bis=0
+					else:
+						print ("Vous n'avez pas de points à dépenser")
+						pass
+				elif str(choix)=="2":
+					print ("en cours de dev")
+				elif str(choix)=="3":
+					print ("en cours de dev")
 		elif str(choix)=="3":
 			b=1
 			while b==1:
@@ -212,7 +245,7 @@ elif str(choix)=="2":
 					b=0
 					pass
 				elif str(choix)=="1":
-
+					print ("en cours de dev")
 				elif str(choix)=="2":
 					c=1
 					while c==1:
@@ -221,11 +254,13 @@ elif str(choix)=="2":
 							c=0
 							pass
 						elif str(choix)=="1":
-							affichage_global(1,"INSAISISSABLE")
-					
-
-					
-
+							print ("en cours de dev")
+						elif str(choix)=="2":
+							print ("en cours de dev")
+						elif str(choix)=="3":
+							print ("en cours de dev")
+				elif str(choix)=="3":
+					print ("en cours de dev")	
 else:
 	print ("Tu n'es pas foutu de taper 1 ou 2...? Ca promet pour la suite !")
 	input()

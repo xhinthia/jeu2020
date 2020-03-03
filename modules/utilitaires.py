@@ -52,6 +52,57 @@ def affichage_global(clean,titre,*arg):
 	print ("<><><><><><><><><><><><><><><><><>")
 	input()
 
+def selection_trait(point_aptitude,trait0,trait1,trait2,trait3,trait4,trait5,trait6,trait7,trait8,trait9):
+	a=1
+	while a==1:
+		if clean==1:
+			os.system('cls' if os.name == 'nt' else 'clear')
+		print ("**********************************")
+		print ("")
+		print ("	"+str(trait0))
+		print ("")
+		print ("**********************************")
+		print ("")
+		print ("<><><><><><><><><><><><><><><><><>")
+		print ("")
+		j=0
+		for i in (1,9):
+			j+=1
+			if str(trait+i)=="0":
+				pass
+			else:
+				print ("Palier "+str(j)+" : "+str(trait+i))
+			print ("")
+			print ("<><><><><><><><><><><><><><><><><>")
+		if str(trait0)=="Vivacité":
+			if j==1:
+				b=1
+				while b==1:
+					choix=menu_x_choix(0,"PALIER "+j,"Frappe rapide a une chance de vous rendre 1 point d'énergie (1% + technique)","Retour")
+					if str(choix)=="2":
+						b=0
+						pass
+					elif str(choix)=="1":
+						trait1="Frappe rapide a une chance de vous rendre 1 point d'énergie (1% + technique)"
+						b=0
+						pass
+					elif str(choix)=="2":
+						a=0
+						b=0
+						pass
+			elif (j>1 and j<5):
+				b=1
+				while b==1:
+					choix=menu_x_choix(0,"PALIER "+j,"+2% technique","+X% vitesse","+10% brutalité","Retour")
+					if str(choix)=="4":
+						b=0
+						pass
+					elif str(choix)=="1":
+						(trait+j)=
+		elif str(trait0)=="Puissance":
+
+		elif str(trait0)=="Résistance":
+
 def selection_trait_perso(clean,trait,*arg):
 	if clean==1:
 		os.system('cls' if os.name == 'nt' else 'clear')
