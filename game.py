@@ -125,11 +125,11 @@ while a==1:
 						if str(choix)=="4":
 							pass
 						elif str(choix)=="1":
-							consult(1,"INSAISISSABLE","+5% esquive","+5% vitesse <-> +5% armure","+7% précision <-> +7% brutalité","+7% ténacité <-> +7% technique","+5% esquive","+6% vitesse <-> +8% ténacité","+6% armure <-> +8% brutalité","+8% précision <-> +8% technique","Après une esquive, contre-attaque dispo (100% cc)","Débloque les maîtrises")
+							affichage_global(1,"INSAISISSABLE","+5% esquive","+5% vitesse <-> +5% armure","+7% précision <-> +7% brutalité","+7% ténacité <-> +7% technique","+5% esquive","+6% vitesse <-> +8% ténacité","+6% armure <-> +8% brutalité","+8% précision <-> +8% technique","Après une esquive, contre-attaque dispo (100% cc)","Débloque les maîtrises")
 						elif str(choix)=="2":
-							consult(1,"ELEMENTAIRE","+5% poser sceau","+5% force <-> +7% technique","+5% vitesse <-> +7% technique","+7% ténacité <-> +5% force","+5% poser sceau élementaire (feu,glace,foudre) max 3","+6% vitesse <-> +8% ténacité","+8% technique <-> +6% force","+6% vie <-> +6% armure","sort : instabilité élementaire qui consomme les sceaux","Débloque les maîtrises")
+							affichage_global(1,"ELEMENTAIRE","+5% poser sceau","+5% force <-> +7% technique","+5% vitesse <-> +7% technique","+7% ténacité <-> +5% force","+5% poser sceau élementaire (feu,glace,foudre) max 3","+6% vitesse <-> +8% ténacité","+8% technique <-> +6% force","+6% vie <-> +6% armure","sort : instabilité élementaire qui consomme les sceaux","Débloque les maîtrises")
 						elif str(choix)=="3":
-							consult(1,"SANGUINAIRE","+5% chance de plaie","+5% force <-> +5% vie","+5% vie <-> +7% précision","+5% force <-> +7% brutalité","+5% chance de plaie (cc inflige 2 plaies)","+6% force <-> +6% vitesse","+6% vie <-> +6% force","+8% précision <-> +8% brutalité","sort torture : inflige autant de plaie que tes points d'énergie et perd 1 point pour le reste du combat","Débloque les maîtrises")
+							affichage_global(1,"SANGUINAIRE","+5% chance de plaie","+5% force <-> +5% vie","+5% vie <-> +7% précision","+5% force <-> +7% brutalité","+5% chance de plaie (cc inflige 2 plaies)","+6% force <-> +6% vitesse","+6% vie <-> +6% force","+8% précision <-> +8% brutalité","sort torture : inflige autant de plaie que tes points d'énergie et perd 1 point pour le reste du combat","Débloque les maîtrises")
 						else:
 							pass
 					elif str(choix)=="3":

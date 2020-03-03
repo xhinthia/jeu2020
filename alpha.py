@@ -5,6 +5,104 @@ import random
 from modules.utilitaires import *
 import time
 
+if os.path.isfile("traits.txt")=="false":
+	trait0=0
+	trait1=0
+	trait2=0
+	trait3=0
+	trait4=0
+	trait5=0
+	trait6=0
+	trait7=0
+	trait8=0
+	trait9=0
+	fw = open("traits.txt","w")
+	fw.write(str(trait))
+	fw.write("\n")
+	fw.write(str(trait_p1))
+	fw.write("\n")
+	fw.write(str(trait_p2))
+	fw.write("\n")
+	fw.write(str(trait_p3))
+	fw.write("\n")
+	fw.write(str(trait_p4))
+	fw.write("\n")
+	fw.write(str(trait_p5))
+	fw.write("\n")
+	fw.write(str(trait_p6))
+	fw.write("\n")
+	fw.write(str(trait_p7))
+	fw.write("\n")
+	fw.write(str(trait_p8))
+	fw.write("\n")
+	fw.write(str(trait_p9))
+	fw.close()
+else:
+	liste_trait = []
+	with open("trait.txt","r") as f_read:
+		for line in f_read:
+			line=line.strip()
+			liste_trait.append(line)
+	f_read.close()
+	trait0 = liste_trait[0]
+	trait1 = liste_trait[1]
+	trait2 = liste_trait[2]
+	trait3 = liste_trait[3]
+	trait4 = liste_trait[4]
+	trait5 = liste_trait[5]
+	trait6 = liste_trait[6]
+	trait7 = liste_trait[7]
+	trait8 = liste_trait[8]
+	trait9 = liste_trait[9]
+if os.path.isfile("specialisations.txt")=="false":
+	specialisation0=0
+	specialisation1=0
+	specialisation2=0
+	specialisation3=0
+	specialisation4=0
+	specialisation5=0
+	specialisation6=0
+	specialisation7=0
+	specialisation8=0
+	specialisation9=0
+	fw = open("traits.txt","w")
+	fw.write(str(specialisation))
+	fw.write("\n")
+	fw.write(str(specialisation_p1))
+	fw.write("\n")
+	fw.write(str(specialisation_p2))
+	fw.write("\n")
+	fw.write(str(specialisation_p3))
+	fw.write("\n")
+	fw.write(str(specialisation_p4))
+	fw.write("\n")
+	fw.write(str(specialisation_p5))
+	fw.write("\n")
+	fw.write(str(specialisation_p6))
+	fw.write("\n")
+	fw.write(str(specialisation_p7))
+	fw.write("\n")
+	fw.write(str(specialisation_p8))
+	fw.write("\n")
+	fw.write(str(specialisation_p9))
+	fw.close()
+else:
+	liste_specialisation = []
+	with open("trait.txt","r") as f_read:
+		for line in f_read:
+			line=line.strip()
+			liste_specialisation.append(line)
+	f_read.close()
+	specialisation0 = liste_specialisation[0]
+	specialisation1 = liste_specialisation[1]
+	specialisation2 = liste_specialisation[2]
+	specialisation3 = liste_specialisation[3]
+	specialisation4 = liste_specialisation[4]
+	specialisation5 = liste_specialisation[5]
+	specialisation6 = liste_specialisation[6]
+	specialisation7 = liste_specialisation[7]
+	specialisation8 = liste_specialisation[8]
+	specialisation9 = liste_specialisation[9]
 choix=input("Voulez-vous passer les explications ? [1 - Non] [2 - Oui] : ")
 if str(choix)=="1":
 	print ("Bienvenue dans l'alpha de XZ GAME !")
@@ -105,9 +203,30 @@ elif str(choix)=="2":
 					b=0
 					pass
 				elif str(choix)=="1":
+
+		elif str(choix)=="3":
+			b=1
+			while b==1:
+				choix=menu_x_choix(1,"SPECIALISATIONS","Choisir","Consulter","Réinitialiser","Retour")
+				if str(choix)=="4":
+					b=0
+					pass
+				elif str(choix)=="1":
+
+				elif str(choix)=="2":
+					c=1
+					while c==1:
+						choix=menu_x_choix(1,"CONSULTER","Insaisissable","Elementaire","Sanguinaire","Retour")
+						if str(choix)=="4":
+							c=0
+							pass
+						elif str(choix)=="1":
+							affichage_global(1,"INSAISISSABLE")
+					
+
 					
 
 else:
-	print ("Tu n'es pas foutu de taper 1 ou 2...? Ca promet pour jouer !")
+	print ("Tu n'es pas foutu de taper 1 ou 2...? Ca promet pour la suite !")
 	input()
 	quit()
