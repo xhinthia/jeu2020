@@ -15,38 +15,51 @@ brut=50
 touch=1
 tech=1
 
-if os.path.isfile("traits.txt")=="false":
-	trait0=0
-	trait1=0
-	trait2=0
-	trait3=0
-	trait4=0
-	trait5=0
-	trait6=0
-	trait7=0
-	trait8=0
-	trait9=0
-	fw = open("traits.txt","w")
-	fw.write(str(trait))
+if os.path.isfile("trait_selection.txt")=="false":
+	fw = open("trait_selection.txt","w")
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p1))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p2))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p3))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p4))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p5))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p6))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p7))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p8))
+	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(trait_p9))
+	fw.write(str(0))
 	fw.close()
+if os.path.isfile("trait_global_vivacite.txt")=="false":
+	fw = open("trait_global.txt","w")
+	fw.write(str("VIVACITE"))
+	fw.write("\n")
+	fw.write(str("Frappe rapide à une chance de vous rendre 1 point d'énergie (1% + technique)"))
+	fw.write("\n")
+	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write("\n")
+	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write("\n")
+	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write("\n")
+	fw.write(str("Les dégats successifs dans un même tour augmente (+10% à chaque itération)"))
+	fw.write("\n")
+	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write("\n")
+	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write("\n")
+	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write("\n")
+	fw.write(str("1 point d'énergie en plus"))
+	fw.close()
+"""
 else:
 	liste_trait = []
 	with open("trait.txt","r") as f_read:
@@ -113,6 +126,7 @@ else:
 	specialisation7 = liste_specialisation[7]
 	specialisation8 = liste_specialisation[8]
 	specialisation9 = liste_specialisation[9]
+"""
 choix=input("Voulez-vous passer les explications ? [1 - Non] [2 - Oui] : ")
 if str(choix)=="1":
 	print ("Bienvenue dans l'alpha de XZ GAME !")

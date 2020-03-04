@@ -66,57 +66,57 @@ puissance :
 
 vivacité :
 1) frappe rapide à une chance de vous rendre 1 point d'énergie (1% + technique)
-2) +2%tech / vit / +10%brut
-3) +2%tech / vit / +10%brut
-4) +2%tech / vit / +10%brut
+2) +2%tech / +6%vit / +10%brut
+3) +2%tech / +6%vit / +10%brut
+4) +2%tech / +6%vit / +10%brut
 5) les dégats des frappes rapides successives augmentent (seulement sur le même tour) - +10%
-6) +2%tech / vit / +10%brut
-7) +2%tech / vit / +10%brut
-8) +2%tech / vit / +10%brut
+6) +2%tech / +6%vit / +10%brut
+7) +2%tech / +6%vit / +10%brut
+8) +2%tech / +6%vit / +10%brut
 9) 1 pt d'énergie en plus
 
 Intouchable :
 1) bouclier a une chance de bloquer l'attaque (1% + technique)
-2) vie / armu / +2%tech
-3) vie / armu / +2%tech
-4) vie / armu / +2%tech
+2) +7%vie / +6%armu / +2%tech
+3) +7%vie / +6%armu / +2%tech
+4) +7%vie / +6%armu / +2%tech
 5) Inflige dégat d'armure lorsque vous bloquez
-6) vie / armu / +2%tech
-7) vie / armu / +2%tech
-8) vie / armu / +2%tech
+6) +7%vie / +6%armu / +2%tech
+7) +7%vie / +6%armu / +2%tech
+8) +7%vie / +6%armu / +2%tech
 9) 1 pt d'énergie en plus
 
 ------------------------
 
 Insaisissable :
 1) +1% de chance d'esquiver (fonction technique)
-2) +1%tech / +6%brut / vit
-3) +1%tech / +6%brut / vit
-4) +1%tech / +6%brut / vit
+2) +1%tech / +6%brut / +6%vit
+3) +1%tech / +6%brut / +6%vit
+4) +1%tech / +6%brut / +6%vit
 5) après une esquive, permet de lancer le sort 4 = contre-attaque (cc obligatoire)
-6) +1%tech / +6%brut / vit
-7) +1%tech / +6%brut / vit
-8) +1%tech / +6%brut / vit
+6) +1%tech / +6%brut / +6%vit
+7) +1%tech / +6%brut / +6%vit
+8) +1%tech / +6%brut / +6%vit
 9) votre vitesse augmente vos chances d'esquiver
 
 Elémentaire :
 1) chance de poser un sceau en infligeant des dégats
-2) +3%tech / armu / vit
-3) +3%tech / armu / vit
-4) +3%tech / armu / vit
+2) +4%tech / +5%armu / +4%vit
+3) +4%tech / +5%armu / +4%vit
+4) +4%tech / +5%armu / +4%vit
 5) permet d'activer 3 sceaux (sort 4 = absorption élementaire) pour lancer un sort parmi une liste aléatoire
-6) +3%tech / armu / vit
-7) +3%tech / armu / vit
-8) +3%tech / armu / vit
+6) +4%tech / +5%armu / +4%vit
+7) +4%tech / +5%armu / +4%vit
+8) +4%tech / +5%armu / +4%vit
 9) 20% chance de conserver 1 sceau aléatoire après les avoir absorbés.
 
 Sanguinaire :
 1) infliger des dégats a 40% de chance de poser plaie sur la cible
-2) +3%préci / vie / force
-3) +3%préci / vie / force
-4) +3%préci / vie / force
+2) +3%préci / +6%vie / +7%force
+3) +3%préci / +6%vie / +7%force
+4) +3%préci / +6%vie / +7%force
 5) les cc pose plaies sur la cible
-6) +3%préci / vie / force
-7) +3%préci / vie / force
-8) +3%préci / vie / force
+6) +3%préci / +6%vie / +7%force
+7) +3%préci / +6%vie / +7%force
+8) +3%préci / +6%vie / +7%force
 9) Boucherie : consommer 10 plaies sur la cible pour infliger l'équivalent de 2 fois les dégats infligés à chaque début de tour
