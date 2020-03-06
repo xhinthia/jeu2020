@@ -23,7 +23,7 @@ def talent(fichier1,fichier2,point_aptitude):
         print ("")
         x=0
         y=1
-        for x in range (2,18,2):
+        for x in range (2,20,2):
             if liste1[x]!=0:
                 print ("Palier "+str(y)+" : "+str(liste1[x+1]))
                 y+=1
@@ -51,7 +51,7 @@ def talent(fichier1,fichier2,point_aptitude):
         print ("")
         i=0
         j=1
-        for i in range (2,18,2):
+        for i in range (2,20,2):
             if str(liste2[i])=="0":
                 pass
             else:
@@ -68,13 +68,13 @@ def talent(fichier1,fichier2,point_aptitude):
             input("Appuyez sur une touche pour sortir")
             a=0
             pass
-        print ("    > "+str(point_aptitude)+" points à dépenser <")
-        print ("")
-        if point_aptitude==0:
+        elif point_aptitude==0:
             input("Appuyez sur une touche pour sortir")
             a=0
             pass
         else:
+            print ("    > "+str(point_aptitude)+" points à dépenser <")
+            print ("")
             choix=input("Voulez-vous utilisez vos points ? (1 - Oui, 2 - Non) : ")
             print ("")
             b=1
@@ -83,7 +83,6 @@ def talent(fichier1,fichier2,point_aptitude):
                     input("Appuyez sur une touche pour sortir")
                     a=0
                     b=0
-                    pass
                 elif str(choix)=="1":
                     if liste2[1]=="VIVACITE":
                         if j==1:
@@ -94,7 +93,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -111,7 +109,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -128,7 +125,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -147,7 +143,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     liste2[index]=1
                                     liste2[valeur]="+2% de technique"
@@ -175,7 +170,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -192,7 +186,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -209,7 +202,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -228,7 +220,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     liste2[index]=1
                                     liste2[valeur]="+3% de technique"
@@ -256,7 +247,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -273,7 +263,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -290,7 +279,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -309,7 +297,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     liste2[index]=1
                                     liste2[valeur]="+2% de technique"
@@ -337,7 +324,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -354,7 +340,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -371,7 +356,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -390,7 +374,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     liste2[index]=1
                                     liste2[valeur]="+2% de technique"
@@ -418,7 +401,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -435,7 +417,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -452,7 +433,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -471,7 +451,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     liste2[index]=1
                                     liste2[valeur]="+3% de technique"
@@ -499,7 +478,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -516,7 +494,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=j*2+1
@@ -533,7 +510,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     index=j*2
                                     valeur=(j*2+1)
@@ -552,7 +528,6 @@ def talent(fichier1,fichier2,point_aptitude):
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
                                     c=0
-                                    pass
                                 elif str(choix)=="1":
                                     liste2[index]=1
                                     liste2[valeur]="+3% de précision"
@@ -609,5 +584,9 @@ def talent(fichier1,fichier2,point_aptitude):
                     fw.write(str(liste2[17]))
                     fw.write("\n")
                     fw.write(str(liste2[18]))
+                    fw.write("\n")
+                    fw.write(str(liste2[19]))
+                    fw.write("\n")
+                    fw.write(str(liste2[20]))
                     fw.close()
-                    return point_aptitude
+    return point_aptitude

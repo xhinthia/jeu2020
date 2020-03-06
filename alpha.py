@@ -6,91 +6,95 @@ from utilitaires import *
 import time
 from talent import *
 
-if os.path.isfile("trait_selection.txt")=="true":
+if os.path.isfile("trait_selection.txt"):
 	pass
 else:
 	fw = open("trait_selection.txt","w")
-	fw.write(str(0))
+	fw.write(str(0))#I0
+	fw.write("\n")
+	fw.write(str(0))#P0
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P1
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P2
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P3
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P4
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P5
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P6
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P7
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P8
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P9
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))	
 	fw.close()
-if os.path.isfile("specialisation_selection.txt")=="true":
+if os.path.isfile("specialisation_selection.txt"):
 	pass
 else:
 	fw = open("specialisation_selection.txt","w")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P0
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P1
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P2
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P3
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P4
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P5
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P6
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P7
 	fw.write("\n")
 	fw.write(str(0))
 	fw.write("\n")
-	fw.write(str(0))
+	fw.write(str(0))#P8
 	fw.write("\n")
 	fw.write(str(0))
+	fw.write("\n")
+	fw.write(str(0))#P9
 	fw.write("\n")
 	fw.write(str(0))
 	fw.close()
@@ -367,7 +371,7 @@ else:
 choix=input("Voulez-vous passer les explications ? [1 - Non] [2 - Oui] : ")
 if str(choix)=="1":
 	os.system('cls' if os.name == 'nt' else 'clear')
-    print ("Bienvenue dans l'alpha de XZ GAME !")
+	print ("Bienvenue dans l'alpha de XZ GAME !")
 	time.sleep(1)
 	print ("")
 	print ("Cet alpha a pour but de découvrir les possibilités de build qu'offre l'arbre de talent et de découvrir la mécanique des combats")
@@ -391,14 +395,14 @@ if str(choix)=="1":
 	print ("Enfin, les spécialisations qui sont les deuxièmes améliorations disponibles (accessible lorsque vous débloquez le dernier palier de votre trait)")
 	time.sleep(1)
 	print ("Vous avez également 3 choix : Insaisissable, Elementaire et Sanguinaire")
-    print ("")
-    time.sleep(1)
-    print ("NB : Dans l'alpha, vous avez directement 18 points d'aptitudes qui permettent de compléter tous les paliers de votre trait et de votre spécialisation.")
-    time.sleep(1)
-    print ("Mais n'hésitez pas à tester qu'avec les premiers paliers par exemple, puisque ce sera le cas en suivant le déroulement normal du jeu !")
+	print ("")
+	time.sleep(1)
+	print ("NB : Dans l'alpha, vous avez directement 18 points d'aptitudes qui permettent de compléter tous les paliers de votre trait et de votre spécialisation.")
+	time.sleep(1)
+	print ("Mais n'hésitez pas à tester qu'avec les premiers paliers par exemple, puisque ce sera le cas en suivant le déroulement normal du jeu !")
 	time.sleep(1.5)
 	print ("")
-    print ("")
+	print ("")
 	input("Quand vous souhaitez continuer, appuyer sur n'importe quelle touche.")
 	os.system('cls' if os.name == 'nt' else 'clear')
 	print ("Rapides explications sur les caractéristiques :")
@@ -413,8 +417,8 @@ if str(choix)=="1":
 	time.sleep(1.5)
 	print ("")
 	print ("Ce sont les 4 caractéristiques principales, jusque là rien de révolutionnaire...")
-    print ("")
-    time.sleep(1)
+	print ("")
+	time.sleep(1)
 	print ("Par contre la suite :")
 	time.sleep(1.5)
 	print ("")
@@ -455,199 +459,221 @@ if str(choix)=="1":
 	print ("De plus, la technique permet d'activer certains talents débloqués dans les traits et/ou les spécialisations très puissants")
 	time.sleep(1.5)
 	print ("Je pense que vous avez les bases")
-    print ("")
+	print ("")
 	input("Pour commencer (enfin) à jouer, appuyez sur une touche")
 	os.system('cls' if os.name == 'nt' else 'clear')
-elif str(choix)=="2":
-	point_aptitude=18
-	vie=1000
-	force=325
-	arm=150
-	vit=100
-	preci=1
-	brut=50
-	touch=1
-	tech=1
-	liste_trait = []
-	with open("trait_selection.txt","r") as f_read:
-		for line in f_read:
-			line=line.strip()
-			liste_trait.append(line)
-	f_read.close()
-	liste_specialisation = []
-	with open("specialisation_selection.txt","r") as f_read:
-		for line in f_read:
-			line=line.strip()
-			liste_specialisation.append(line)
+point_aptitude=18
+vie=1000
+force=325
+arm=150
+vit=100
+preci=1
+brut=50
+touch=1
+tech=1
+liste_trait = []
+with open("trait_selection.txt","r") as f_read:
+	for line in f_read:
+		line=line.strip()
+		liste_trait.append(line)
+f_read.close()
+liste_specialisation = []
+with open("specialisation_selection.txt","r") as f_read:
+	for line in f_read:
+		line=line.strip()
+		liste_specialisation.append(line)
 			
-	f_read.close()
+f_read.close()
 
-	a=1
-	while a==1:
-		choix=menu_x_choix(1,"MENU PRINCIPAL","Expédition","Talents","Quitter")
-		if str(choix)=="4":
-			a=0
-			pass
-		elif str(choix)=="1":
-			print ("en cours de dev")
-		elif str(choix)=="2":
-			b=1
-			while b==1:
-				choix=menu_x_choix(1,"TALENTS","Traits","Spécialisations","Réinitialiser","Retour")
-				if str(choix)=="4":
-					b=0
-					pass
-				elif str(choix)=="1":
-					c=1
-					while c==1:
-						if str(liste_trait[0])=="0":
-							print ("Dans un premier temps, vous allez devoir choisir votre trait.")
+a=1
+while a==1:
+	choix=menu_x_choix(1,"MENU PRINCIPAL","Expédition","Talents","Quitter")
+	if str(choix)=="3":
+		a=0
+		pass
+	elif str(choix)=="1":
+		print ("en cours de dev")
+	elif str(choix)=="2":
+		b=1
+		while b==1:
+			choix=menu_x_choix(1,"TALENTS","Traits","Spécialisations","Réinitialiser","Retour")
+			if str(choix)=="4":
+				b=0
+				pass
+			elif str(choix)=="1":
+				c=1
+				while c==1:
+					if str(liste_trait[0])=="0":
+						print ("Dans un premier temps, vous allez devoir choisir votre trait.")
+						input("Appuyez sur une touche lorsque vous êtes prêt...")
+						d=1
+						while d==1:
+							choix=menu_x_choix(1,"TRAITS","Vivacité (pour ceux qui aiment jouer souvent)","Puissance (pour ceux qui aiment taper fort)","Résistance (pour ceux qui ne veulent pas mourir)","Retour")
+							if str(choix)=="4":
+								c=0
+								d=0
+								pass
+							elif str(choix)=="1":
+								liste_trait[0]=1
+								liste_trait[1]="VIVACITE"
+								d=0
+							elif str(choix)=="2":
+								liste_trait[0]=1
+								liste_trait[1]="PUISSANCE"
+								d=0
+							elif str(choix)=="3":
+								liste_trait[0]=1
+								liste_trait[1]="RESISTANCE"
+								d=0
+						fw = open("trait_selection.txt","w")
+						fw.write(str(liste_trait[0]))
+						fw.write("\n")
+						fw.write(str(liste_trait[1]))
+						fw.write("\n")
+						fw.write(str(liste_trait[2]))
+						fw.write("\n")
+						fw.write(str(liste_trait[3]))
+						fw.write("\n")
+						fw.write(str(liste_trait[4]))
+						fw.write("\n")
+						fw.write(str(liste_trait[5]))
+						fw.write("\n")
+						fw.write(str(liste_trait[6]))
+						fw.write("\n")
+						fw.write(str(liste_trait[7]))
+						fw.write("\n")
+						fw.write(str(liste_trait[8]))
+						fw.write("\n")
+						fw.write(str(liste_trait[9]))
+						fw.write("\n")
+						fw.write(str(liste_trait[10]))
+						fw.write("\n")
+						fw.write(str(liste_trait[11]))
+						fw.write("\n")
+						fw.write(str(liste_trait[12]))
+						fw.write("\n")
+						fw.write(str(liste_trait[13]))
+						fw.write("\n")
+						fw.write(str(liste_trait[14]))
+						fw.write("\n")
+						fw.write(str(liste_trait[15]))
+						fw.write("\n")
+						fw.write(str(liste_trait[16]))
+						fw.write("\n")
+						fw.write(str(liste_trait[17]))
+						fw.write("\n")
+						fw.write(str(liste_trait[18]))
+						fw.write("\n")
+						fw.write(str(liste_trait[19]))
+						fw.write("\n")
+						fw.write(str(liste_trait[20]))
+						fw.close()
+					else:
+						if str(liste_trait[1])=="VIVACITE":
+							talent("trait_global_vivacite.txt","trait_selection.txt",point_aptitude)
+							c=0
+							d=0
+						elif str(liste_trait[1])=="PUISSANCE":
+							talent("trait_global_puissance.txt","trait_selection.txt",point_aptitude)
+							c=0
+							d=0
+						elif str(liste_trait[1])=="RESISTANCE":
+							talent("trait_global_resistance.txt","trait_selection.txt",point_aptitude)
+							c=0
+							d=0
+			elif str(choix)=="2":
+				c=1
+				while c==1:
+					if str(liste_specialisation[0])=="0":
+						if str(liste_trait[19])=="0":
+							print ("Vous devez d'abord atteindre le dernier palier de votre trait !")
+							input("Appuyez sur une touche pour continuer...")
+							c=0
+							pass
+						else:
+							print ("Dans un premier temps, vous allez devoir choisir votre spécialisation.")
 							input("Appuyez sur une touche lorsque vous êtes prêt...")
 							d=1
 							while d==1:
-								choix=menu_x_choix(1,"TRAITS","Vivacité (pour ceux qui aiment jouer souvent)","Puissance (pour ceux qui aiment taper fort)","Résistance (pour ceux qui ne veulent pas mourir)","Retour")
+								choix=menu_x_choix(1,"SPECIALISATION","Insaisissable (pour ceux qui veulent rester dans l'ombre)","Elementaire (pour ceux qui aiment la magie)","Sanguinaire (pour ceux qui... aiment le sang ?)","Retour")
 								if str(choix)=="4":
-									c=0
 									d=0
+									c=0
 									pass
 								elif str(choix)=="1":
-									liste_trait[0]=1
-									liste_trait[1]="VIVACITE"
+									liste_specialisation[0]=1
+									liste_specialisation[1]="INSAISISSABLE"
 									d=0
 								elif str(choix)=="2":
-									liste_trait[0]=1
-									liste_trait[1]="PUISSANCE"
+									liste_specialisation[0]=1
+									liste_specialisation[1]="ELEMENTAIRE"
 									d=0
 								elif str(choix)=="3":
-									liste_trait[0]=1
-									liste_trait[1]="RESISTANCE"
+									liste_specialisation[0]=1
+									liste_specialisation[1]="SANGUINAIRE"
 									d=0
-							fw = open("trait_selection.txt","w")
-							fw.write(str(liste_trait[0]))
+							fw = open("specialisation_selection.txt","w")
+							fw.write(str(liste_specialisation[0]))
 							fw.write("\n")
-							fw.write(str(liste_trait[1]))
+							fw.write(str(liste_specialisation[1]))
 							fw.write("\n")
-							fw.write(str(liste_trait[2]))
+							fw.write(str(liste_specialisation[2]))
 							fw.write("\n")
-							fw.write(str(liste_trait[3]))
+							fw.write(str(liste_specialisation[3]))
 							fw.write("\n")
-							fw.write(str(liste_trait[4]))
+							fw.write(str(liste_specialisation[4]))
 							fw.write("\n")
-							fw.write(str(liste_trait[5]))
+							fw.write(str(liste_specialisation[5]))
 							fw.write("\n")
-							fw.write(str(liste_trait[6]))
+							fw.write(str(liste_specialisation[6]))
 							fw.write("\n")
-							fw.write(str(liste_trait[7]))
+							fw.write(str(liste_specialisation[7]))
 							fw.write("\n")
-							fw.write(str(liste_trait[8]))
+							fw.write(str(liste_specialisation[8]))
 							fw.write("\n")
-							fw.write(str(liste_trait[9]))
+							fw.write(str(liste_specialisation[9]))
 							fw.write("\n")
-							fw.write(str(liste_trait[10]))
+							fw.write(str(liste_specialisation[10]))
 							fw.write("\n")
-							fw.write(str(liste_trait[11]))
+							fw.write(str(liste_specialisation[11]))
 							fw.write("\n")
-							fw.write(str(liste_trait[12]))
+							fw.write(str(liste_specialisation[12]))
 							fw.write("\n")
-							fw.write(str(liste_trait[13]))
+							fw.write(str(liste_specialisation[13]))
 							fw.write("\n")
-							fw.write(str(liste_trait[14]))
+							fw.write(str(liste_specialisation[14]))
 							fw.write("\n")
-							fw.write(str(liste_trait[15]))
+							fw.write(str(liste_specialisation[15]))
 							fw.write("\n")
-							fw.write(str(liste_trait[16]))
+							fw.write(str(liste_specialisation[16]))
 							fw.write("\n")
-							fw.write(str(liste_trait[17]))
+							fw.write(str(liste_specialisation[17]))
 							fw.write("\n")
-							fw.write(str(liste_trait[18]))
+							fw.write(str(liste_specialisation[18]))
+							fw.write("\n")
+							fw.write(str(liste_specialisation[19]))
+							fw.write("\n")
+							fw.write(str(liste_specialisation[20]))
 							fw.close()
-						else:
-							if str(liste_trait[1])=="VIVACITE":
-								talent("trait_global_vivacite.txt","trait_selection.txt",point_aptitude)
-							elif str(liste_trait[1])=="PUISSANCE":
-								talent("trait_global_puissance.txt","trait_selection.txt",point_aptitude)
-							elif str(liste_trait[1])=="RESISTANCE":
-								talent("trait_global_resistance.txt","trait_selection.txt",point_aptitude)
-				elif str(choix)=="2":
-					c=1
-					while c==1:
-						if str(liste_specialisation[0])=="0":
-							if str(liste_trait[19])=="0":
-								print ("Vous devez d'abord atteindre le dernier palier de votre trait !")
-								input("Appuyez sur une touche pour continuer...")
-								pass
-							else:
-								print ("Dans un premier temps, vous allez devoir choisir votre spécialisation.")
-								input("Appuyez sur une touche lorsque vous êtes prêt...")
-								d=1
-								while d==1:
-									choix=menu_x_choix(1,"SPECIALISATION","Insaisissable (pour ceux qui veulent rester dans l'ombre)","Elementaire (pour ceux qui aiment la magie)","Sanguinaire (pour ceux qui... aiment le sang ?)","Retour")
-									if str(choix)=="4":
-										d=0
-										c=0
-										pass
-									elif str(choix)=="1":
-										liste_specialisation[0]=1
-										liste_specialisation[1]="INSAISISSABLE"
-										d=0
-									elif str(choix)=="2":
-										liste_specialisation[0]=1
-										liste_specialisation[1]="ELEMENTAIRE"
-										d=0
-									elif str(choix)=="3":
-										liste_specialisation[0]=1
-										liste_specialisation[1]="SANGUINAIRE"
-										d=0
-								fw = open("specialisation_selection.txt","w")
-								fw.write(str(liste_specialisation[0]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[1]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[2]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[3]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[4]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[5]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[6]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[7]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[8]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[9]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[10]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[11]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[12]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[13]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[14]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[15]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[16]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[17]))
-								fw.write("\n")
-								fw.write(str(liste_specialisation[18]))
-								fw.close()
-					else:
-						if str(liste_specialisation[1])=="INSAISISSABLE":
-							talent("specialisation_global_insaisissable.txt","specialisation_selection.txt",point_aptitude)
-						elif str(liste_specialisation[1])=="ELEMENTAIRE":
-							talent("specialisation_global_elementaire.txt","specialisation_selection.txt",point_aptitude)
-						elif str(liste_specialisation[1])=="SANGUINAIRE":
-							talent("specialisation_global_sanguinaire.txt","specialisation_selection.txt",point_aptitude)
-				elif str(choix)=="3":
-					print ("en cours de dev")
-else:
-	print ("")
-	print ("Tu n'es pas foutu de taper 1 ou 2...? Ca promet pour la suite !")
-	input()
-	quit()
+				else:
+					if str(liste_specialisation[1])=="INSAISISSABLE":
+						talent("specialisation_global_insaisissable.txt","specialisation_selection.txt",point_aptitude)
+						c=0
+						d=0
+					elif str(liste_specialisation[1])=="ELEMENTAIRE":
+						talent("specialisation_global_elementaire.txt","specialisation_selection.txt",point_aptitude)
+						c=0
+						d=0
+					elif str(liste_specialisation[1])=="SANGUINAIRE":
+						talent("specialisation_global_sanguinaire.txt","specialisation_selection.txt",point_aptitude)
+						c=0
+						d=0
+			elif str(choix)=="3":
+				os.remove("trait_selection.txt")
+				os.remove("specialisation_selection.txt")
+				print ("Votre trait et votre spécialisation ont été Réinitialisés.")
+				print ("")
+				print ("Le jeu doit être relancé...")
+				print ("")
+				input("Appuyez sur une touche pour fermer le jeu")
+				quit()
