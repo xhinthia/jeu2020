@@ -30,11 +30,26 @@ for i in liste:
 		print ("Palier "+str(j)+" : "+str(i))
 	j+=1
 input()"""
-
+"""
 x=0
 for x in range (0,18,2):
 	if liste[x]!=0:
 		print (liste[x+1])
 	else:
 		break
+input()"""
+
+choix=input()
+a=1
+while a==1:
+	choix=input()
+	if str(choix)=="1":
+		print ("ok")
+		a=0
+	elif str(choix)=="2":
+		print ("ok2")
+		a=0
+	
+
+print ("alors ?")
 input()

@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+specialisation_global_sanguinaire.txt
+specialisation_global_elementaire.txt
+specialisation_global_insaisissable.txt
+trait_global_resistance.txt
+trait_global_puissance.txt
+trait_global_vivacite.txt
+specialisation_selection.txt
+trait_selection.txt

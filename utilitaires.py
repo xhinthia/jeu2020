@@ -2,7 +2,7 @@ import os
 import os.path
 import sys
 import random
-"""
+
 def pick_number(chance,total):
     difference=total-chance
     liste = []
@@ -12,7 +12,7 @@ def pick_number(chance,total):
         liste.append(0)
     a=random.choice(liste)
     return a
-"""
+
 def menu_x_choix(clean,titre,*arg):
 	if clean==1:
 		os.system('cls' if os.name == 'nt' else 'clear')
@@ -32,7 +32,7 @@ def menu_x_choix(clean,titre,*arg):
 	print ("<><><><><><><><><><><><><><><><><>")
 	choix=input()
 	return choix
-"""
+
 def bandeau(clean,etape):
 	if clean==1:
 		os.system('cls' if os.name == 'nt' else 'clear')
@@ -57,4 +57,3 @@ def bandeau_combat(clean,):
 	print (" ")
 	print ("carac ennemi")
 	print ("___________________________________________________________________________________________________________________________________")
-"""
