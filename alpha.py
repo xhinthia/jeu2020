@@ -570,15 +570,15 @@ while a==1:
 						fw.close()
 					else:
 						if str(liste_trait[1])=="VIVACITE":
-							talent("trait_global_vivacite.txt","trait_selection.txt",point_aptitude)
+							point_aptitude=talent("trait_global_vivacite.txt","trait_selection.txt",point_aptitude)
 							c=0
 							d=0
 						elif str(liste_trait[1])=="PUISSANCE":
-							talent("trait_global_puissance.txt","trait_selection.txt",point_aptitude)
+							point_aptitude=talent("trait_global_puissance.txt","trait_selection.txt",point_aptitude)
 							c=0
 							d=0
 						elif str(liste_trait[1])=="RESISTANCE":
-							talent("trait_global_resistance.txt","trait_selection.txt",point_aptitude)
+							point_aptitude=talent("trait_global_resistance.txt","trait_selection.txt",point_aptitude)
 							c=0
 							d=0
 			elif str(choix)=="2":
@@ -657,15 +657,15 @@ while a==1:
 							fw.close()
 				else:
 					if str(liste_specialisation[1])=="INSAISISSABLE":
-						talent("specialisation_global_insaisissable.txt","specialisation_selection.txt",point_aptitude)
+						point_aptitude=talent("specialisation_global_insaisissable.txt","specialisation_selection.txt",point_aptitude)
 						c=0
 						d=0
 					elif str(liste_specialisation[1])=="ELEMENTAIRE":
-						talent("specialisation_global_elementaire.txt","specialisation_selection.txt",point_aptitude)
+						point_aptitude=talent("specialisation_global_elementaire.txt","specialisation_selection.txt",point_aptitude)
 						c=0
 						d=0
 					elif str(liste_specialisation[1])=="SANGUINAIRE":
-						talent("specialisation_global_sanguinaire.txt","specialisation_selection.txt",point_aptitude)
+						point_aptitude=talent("specialisation_global_sanguinaire.txt","specialisation_selection.txt",point_aptitude)
 						c=0
 						d=0
 			elif str(choix)=="3":
