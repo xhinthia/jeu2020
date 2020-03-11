@@ -46,77 +46,77 @@ caractéristique:
 	- Vie
 	- Force
 	- Armure
-	- vitesse
+	- magie
 	- technique (augmente les proba)
 	- précision (augmente les chances de coup critique)
 	- toucher (augmente tes chances de toucher)
 	- brutalité (dcc)
 
 
-puissance :
-1) frappe lourde a une chance d'ignorer l'armure de la cible (2% + technique)
-2) +3%préci / +10%brut / +2%tech
-3) +3%préci / +10%brut / +2%tech
-4) +3%préci / +10%brut / +2%tech
-5) les cc ont une chance d'ignorer l'armure ennemi (10% + technique)
-6) +3%préci / +10%brut / +2%tech
-7) +3%préci / +10%brut / +2%tech
-8) +3%préci / +10%brut / +2%tech
-9) 1 pt d'energie en plus
-
 vivacité :
 1) frappe rapide à une chance de vous rendre 1 point d'énergie (1% + technique)
-2) +2%tech / +6%vit / +10%brut
-3) +2%tech / +6%vit / +10%brut
-4) +2%tech / +6%vit / +10%brut
+2) +2%tech / +6%magie / +6%force
+3) +2%tech / +6%magie / +6%force
+4) +2%tech / +6%magie / +6%force
 5) les dégats des frappes rapides successives augmentent (seulement sur le même tour) - +10%
-6) +2%tech / +6%vit / +10%brut
-7) +2%tech / +6%vit / +10%brut
-8) +2%tech / +6%vit / +10%brut
+6) +2%tech / +6%magie / +6%force
+7) +2%tech / +6%magie / +6%force
+8) +2%tech / +6%magie / +6%force
 9) 1 pt d'énergie en plus
+
+puissance :
+1) frappe lourde a une chance d'ignorer l'armure de la cible (2% + technique)
+2) +3%tech / +3%preci / +10%brut
+3) +3%tech / +3%preci / +10%brut
+4) +3%tech / +3%preci / +10%brut
+5) les cc ont une chance d'ignorer l'armure ennemi (20% + technique)
+6) +3%tech / +3%preci / +10%brut
+7) +3%tech / +3%preci / +10%brut
+8) +3%tech / +3%preci / +10%brut
+9) 1 pt d'energie en plus
 
 Intouchable :
 1) bouclier a une chance de bloquer l'attaque (1% + technique)
-2) +7%vie / +6%armu / +2%tech
-3) +7%vie / +6%armu / +2%tech
-4) +7%vie / +6%armu / +2%tech
-5) Inflige dégat d'armure lorsque vous bloquez
-6) +7%vie / +6%armu / +2%tech
-7) +7%vie / +6%armu / +2%tech
-8) +7%vie / +6%armu / +2%tech
+2) +2%tech / +7%vie / +6%armu
+3) +2%tech / +7%vie / +6%armu
+4) +2%tech / +7%vie / +6%armu
+5) Inflige dégat d'armure lorsque vous bloquez (50% de l'armure)
+6) +2%tech / +7%vie / +6%armu
+7) +2%tech / +7%vie / +6%armu
+8) +2%tech / +7%vie / +6%armu
 9) 1 pt d'énergie en plus
 
 ------------------------
 
 Insaisissable :
 1) +1% de chance d'esquiver (fonction technique)
-2) +1%tech / +6%brut / +6%vit
-3) +1%tech / +6%brut / +6%vit
-4) +1%tech / +6%brut / +6%vit
+2) +2%tech / +8%brut / +3%touch
+3) +2%tech / +8%brut / +3%touch
+4) +2%tech / +8%brut / +3%touch
 5) après une esquive, permet de lancer le sort 4 = contre-attaque (cc obligatoire)
-6) +1%tech / +6%brut / +6%vit
-7) +1%tech / +6%brut / +6%vit
-8) +1%tech / +6%brut / +6%vit
-9) votre vitesse augmente vos chances d'esquiver
+6) +2%tech / +8%brut / +3%touch
+7) +2%tech / +8%brut / +3%touch
+8) +2%tech / +8%brut / +3%touch
+9) Contre attaque augmente vos chances d'esquiver au prochain tour (+10% d'esquive)
 
 Elémentaire :
-1) chance de poser un sceau en infligeant des dégats
-2) +4%tech / +5%armu / +4%vit
-3) +4%tech / +5%armu / +4%vit
-4) +4%tech / +5%armu / +4%vit
+1) chance de poser un sceau en infligeant des dégats (4% + technique - 3 stack max)
+2) +3%tech / +4%touch / +9%magie
+3) +3%tech / +4%touch / +9%magie
+4) +3%tech / +4%touch / +9%magie
 5) permet d'activer 3 sceaux (sort 4 = absorption élementaire) pour lancer un sort parmi une liste aléatoire
-6) +4%tech / +5%armu / +4%vit
-7) +4%tech / +5%armu / +4%vit
-8) +4%tech / +5%armu / +4%vit
-9) 20% chance de conserver 1 sceau aléatoire après les avoir absorbés.
+6) +3%tech / +4%touch / +9%magie
+7) +3%tech / +4%touch / +9%magie
+8) +3%tech / +4%touch / +9%magie
+9) chance de conserver 1 sceau aléatoire après les avoir absorbés. (30% de chance)
 
 Sanguinaire :
 1) infliger des dégats a 40% de chance de poser plaie sur la cible
-2) +3%préci / +6%vie / +7%force
-3) +3%préci / +6%vie / +7%force
-4) +3%préci / +6%vie / +7%force
-5) les cc pose plaies sur la cible
-6) +3%préci / +6%vie / +7%force
-7) +3%préci / +6%vie / +7%force
-8) +3%préci / +6%vie / +7%force
-9) Boucherie : consommer 10 plaies sur la cible pour infliger l'équivalent de 2 fois les dégats infligés à chaque début de tour
+2) +3%préci / +4%touch / +8%force
+3) +3%préci / +4%touch / +8%force
+4) +3%préci / +4%touch / +8%force
+5) Consomme 10 plaies pour infliger 3 fois leur dégats périodiques
+6) +3%préci / +4%touch / +8%force
+7) +3%préci / +4%touch / +8%force
+8) +3%préci / +4%touch / +8%force
+9) cc posent 2 plaies sur la cible

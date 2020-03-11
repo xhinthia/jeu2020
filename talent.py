@@ -138,7 +138,7 @@ def talent(fichier1,fichier2,point_aptitude):
                             while c==1:
                                 index=j*2
                                 valeur=j*2+1
-                                choix=menu_x_choix(0,"PALIER "+str(j),"+2% de technique","+6% de vitesse","+10% de brutalité","Retour")
+                                choix=menu_x_choix(0,"PALIER "+str(j),"+2% de technique","+6% de magie","+3% de force","Retour")
                                 if str(choix)=="4":
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
@@ -151,13 +151,13 @@ def talent(fichier1,fichier2,point_aptitude):
                                     point_aptitude-=1
                                 elif str(choix)=="2":
                                     liste2[index]=2
-                                    liste2[valeur]="+6% de vitesse"
+                                    liste2[valeur]="+6% de magie"
                                     b=0
                                     c=0
                                     point_aptitude-=1
                                 elif str(choix)=="3":
                                     liste2[index]=3
-                                    liste2[valeur]="+10% de brutalité"
+                                    liste2[valeur]="+6% de force"
                                     b=0
                                     c=0
                                     point_aptitude-=1
@@ -181,7 +181,7 @@ def talent(fichier1,fichier2,point_aptitude):
                         elif j==5:
                             c=1
                             while c==1:
-                                choix=menu_x_choix(0,"PALIER "+str(j),"Les coups critiques de frappe lourde ont une chance d'ignorer l'armure de la cible (15% + technique)","Retour")
+                                choix=menu_x_choix(0,"PALIER "+str(j),"Les coups critiques de frappe lourde ont une chance d'ignorer l'armure de la cible (20% + technique)","Retour")
                                 if str(choix)=="2":
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
@@ -190,7 +190,7 @@ def talent(fichier1,fichier2,point_aptitude):
                                     index=j*2
                                     valeur=j*2+1
                                     liste2[index]=1
-                                    liste2[valeur]="Les coups critiques de frappe lourde ont une chance d'ignorer l'armure de la cible (15% + technique)"
+                                    liste2[valeur]="Les coups critiques de frappe lourde ont une chance d'ignorer l'armure de la cible (20% + technique)"
                                     b=0
                                     c=0
                                     point_aptitude-=1
@@ -369,7 +369,7 @@ def talent(fichier1,fichier2,point_aptitude):
                             while c==1:
                                 index=j*2
                                 valeur=j*2+1
-                                choix=menu_x_choix(0,"PALIER "+str(j),"+2% de technique","+6% de vitesse","+6% de brutalité","Retour")
+                                choix=menu_x_choix(0,"PALIER "+str(j),"+2% de technique","+8% de brutalité","+3% de toucher","Retour")
                                 if str(choix)=="4":
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
@@ -382,13 +382,13 @@ def talent(fichier1,fichier2,point_aptitude):
                                     point_aptitude-=1
                                 elif str(choix)=="2":
                                     liste2[index]=2
-                                    liste2[valeur]="+6% de vitesse"
+                                    liste2[valeur]="+8% de brutalité"
                                     b=0
                                     c=0
                                     point_aptitude-=1
                                 elif str(choix)=="3":
                                     liste2[index]=3
-                                    liste2[valeur]="+6% de brutalité"
+                                    liste2[valeur]="+3% de toucher"
                                     b=0
                                     c=0
                                     point_aptitude-=1
@@ -446,7 +446,7 @@ def talent(fichier1,fichier2,point_aptitude):
                             while c==1:
                                 index=j*2
                                 valeur=j*2+1
-                                choix=menu_x_choix(0,"PALIER "+str(j),"+3% de technique","+5% d'armure","+4% de vitesse","Retour")
+                                choix=menu_x_choix(0,"PALIER "+str(j),"+3% de technique","+4% de toucher","+9% de magie","Retour")
                                 if str(choix)=="4":
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
@@ -459,13 +459,13 @@ def talent(fichier1,fichier2,point_aptitude):
                                     point_aptitude-=1
                                 elif str(choix)=="2":
                                     liste2[index]=2
-                                    liste2[valeur]="+5% d'armure"
+                                    liste2[valeur]="+4% de toucher"
                                     b=0
                                     c=0
                                     point_aptitude-=1
                                 elif str(choix)=="3":
                                     liste2[index]=3
-                                    liste2[valeur]="+4% de vitesse"
+                                    liste2[valeur]="+9% de magie"
                                     b=0
                                     c=0
                                     point_aptitude-=1
@@ -523,7 +523,7 @@ def talent(fichier1,fichier2,point_aptitude):
                             while c==1:
                                 index=j*2
                                 valeur=j*2+1
-                                choix=menu_x_choix(0,"PALIER "+str(j),"+3% de précision","+6% de vie","+7% de force","Retour")
+                                choix=menu_x_choix(0,"PALIER "+str(j),"+3% de précision","+4% de toucher","+8% de force","Retour")
                                 if str(choix)=="4":
                                     input("Appuyez sur une touche pour sortir")
                                     b=0
@@ -536,13 +536,13 @@ def talent(fichier1,fichier2,point_aptitude):
                                     point_aptitude-=1
                                 elif str(choix)=="2":
                                     liste2[index]=2
-                                    liste2[valeur]="+6% de vie"
+                                    liste2[valeur]="+4% de toucher"
                                     b=0
                                     c=0
                                     point_aptitude-=1
                                 elif str(choix)=="3":
                                     liste2[index]=3
-                                    liste2[valeur]="+7% de force"
+                                    liste2[valeur]="+8% de force"
                                     b=0
                                     c=0
                                     point_aptitude-=1
@@ -590,3 +590,19 @@ def talent(fichier1,fichier2,point_aptitude):
                     fw.write(str(liste2[20]))
                     fw.close()
     return point_aptitude
+
+def talent_variable(liste,chiffre):
+    i=0
+    if str(liste[4])==chiffre:
+        i+=1
+    if str(liste[6])==chiffre:
+        i+=1
+    if str(liste[8])==chiffre:
+        i+=1
+    if str(liste[12])==chiffre:
+        i+=1
+    if str(liste[14])==chiffre:
+        i+=1
+    if str(liste[16])==chiffre:
+        i+=1
+    return i

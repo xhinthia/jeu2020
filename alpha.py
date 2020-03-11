@@ -112,15 +112,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write(str("+2% de technique <OU> +6% de magie <OU> +6% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write(str("+2% de technique <OU> +6% de magie <OU> +6% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write(str("+2% de technique <OU> +6% de magie <OU> +6% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -128,15 +128,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write(str("+2% de technique <OU> +6% de magie <OU> +6% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write(str("+2% de technique <OU> +6% de magie <OU> +6% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de vitesse <OU> +10% de brutalité"))
+	fw.write(str("+2% de technique <OU> +6% de magie <OU> +6% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -169,7 +169,7 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("Les coups critiques de frappe lourde ont une chance d'ignorer l'armure de la cible (15% + technique)"))
+	fw.write(str("Les coups critiques de frappe lourde ont une chance d'ignorer l'armure de la cible (20% + technique)"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -247,15 +247,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de brutalité <OU> +6% de vitesse"))
+	fw.write(str("+2% de technique <OU> +8% de brutalité <OU> +3% de toucher"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de brutalité <OU> +6% de vitesse"))
+	fw.write(str("+2% de technique <OU> +8% de brutalité <OU> +3% de toucher"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de brutalité <OU> +6% de vitesse"))
+	fw.write(str("+2% de technique <OU> +8% de brutalité <OU> +3% de toucher"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -263,19 +263,19 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de brutalité <OU> +6% de vitesse"))
+	fw.write(str("+2% de technique <OU> +8% de brutalité <OU> +3% de toucher"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de brutalité <OU> +6% de vitesse"))
+	fw.write(str("+2% de technique <OU> +8% de brutalité <OU> +3% de toucher"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+2% de technique <OU> +6% de brutalité <OU> +6% de vitesse"))
+	fw.write(str("+2% de technique <OU> +8% de brutalité <OU> +3% de toucher"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("Votre vitesse augmente vos chances d'esquive (10% de votre vitesse)"))
+	fw.write(str("Contre attaque augmente votre esquive pour un tour (+10%)"))
 	fw.close()
 
 if os.path.isfile("specialisation_global_elementaire.txt")=="true":
@@ -292,15 +292,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de technique <OU> +5% d'armure <OU> +4% de vitesse"))
+	fw.write(str("+3% de technique <OU> +4% de toucher <OU> +9% de magie"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de technique <OU> +5% d'armure <OU> +4% de vitesse"))
+	fw.write(str("+3% de technique <OU> +4% de toucher <OU> +9% de magie"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de technique <OU> +5% d'armure <OU> +4% de vitesse"))
+	fw.write(str("+3% de technique <OU> +4% de toucher <OU> +9% de magie"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -308,15 +308,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de technique <OU> +5% d'armure <OU> +4% de vitesse"))
+	fw.write(str("+3% de technique <OU> +4% de toucher <OU> +9% de magie"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de technique <OU> +5% d'armure <OU> +4% de vitesse"))
+	fw.write(str("+3% de technique <OU> +4% de toucher <OU> +9% de magie"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de technique <OU> +5% d'armure <OU> +4% de vitesse"))
+	fw.write(str("+3% de technique <OU> +4% de toucher <OU> +9% de magie"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -337,15 +337,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de précision <OU> +6% de vie <OU> +7% de force"))
+	fw.write(str("+3% de précision <OU> +4% de toucher <OU> +8% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de précision <OU> +6% de vie <OU> +7% de force"))
+	fw.write(str("+3% de précision <OU> +4% de toucher <OU> +8% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de précision <OU> +6% de vie <OU> +7% de force"))
+	fw.write(str("+3% de précision <OU> +4% de toucher <OU> +8% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -353,15 +353,15 @@ else:
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de précision <OU> +6% de vie <OU> +7% de force"))
+	fw.write(str("+3% de précision <OU> +4% de toucher <OU> +8% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de précision <OU> +6% de vie <OU> +7% de force"))
+	fw.write(str("+3% de précision <OU> +4% de toucher <OU> +8% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
-	fw.write(str("+3% de précision <OU> +6% de vie <OU> +7% de force"))
+	fw.write(str("+3% de précision <OU> +4% de toucher <OU> +8% de force"))
 	fw.write("\n")
 	fw.write(str(1))
 	fw.write("\n")
@@ -413,7 +413,7 @@ if str(choix)=="1":
 	time.sleep(1)
 	print ("	- armure : réduit les dégats subis")
 	time.sleep(1)
-	print ("	- vitesse : au plus vous avez de vitesse au plus vous jouez 'vite'")
+	print ("	- magie : augmente les dégats des sorts")
 	time.sleep(1.5)
 	print ("")
 	print ("Ce sont les 4 caractéristiques principales, jusque là rien de révolutionnaire...")
@@ -422,9 +422,9 @@ if str(choix)=="1":
 	print ("Par contre la suite :")
 	time.sleep(1.5)
 	print ("")
-	print ("	- la technique : de 0% à 100%, représente la chance de lancer un sort en faisant une action")
+	print ("	- la technique : représente la chance de lancer un sort en faisant une action (en pourcentage)")
 	time.sleep(1)
-	print ("	- la précision : de 0% à 100% représente la chance de faire un coup critique")
+	print ("	- la précision : représente la chance de faire un coup critique (en pourcentage)")
 	time.sleep(1)
 	print ("	- la brutalité : augmente les dégats critiques")
 	time.sleep(1)
@@ -435,7 +435,7 @@ if str(choix)=="1":
 	print ("")
 	input("Quand tu es prêt, appuie sur une touche")
 	os.system('cls' if os.name == 'nt' else 'clear')
-	print ("En fonction de votre vitesse, soit vous commencez soit c'est l'ennemi")
+	print ("Vous commencez toujours en premier")
 	time.sleep(1)
 	print ("Un bandeau informatif vous donne toutes les informations utiles lors des combats")
 	time.sleep(1)
@@ -462,31 +462,142 @@ if str(choix)=="1":
 	print ("")
 	input("Pour commencer (enfin) à jouer, appuyez sur une touche")
 	os.system('cls' if os.name == 'nt' else 'clear')
-point_aptitude=18
-vie=1000
-force=325
-arm=150
-vit=100
-preci=1
-brut=50
-touch=1
-tech=1
-liste_trait = []
-with open("trait_selection.txt","r") as f_read:
-	for line in f_read:
-		line=line.strip()
-		liste_trait.append(line)
-f_read.close()
-liste_specialisation = []
-with open("specialisation_selection.txt","r") as f_read:
-	for line in f_read:
-		line=line.strip()
-		liste_specialisation.append(line)
-			
-f_read.close()
+
+print ("Avez-vous une sauvegarde ? [oui]/[non]")
+pml=input()
+if pml=="oui":
+	sauveg = []
+	with open("sauv.txt","r") as f_read:
+		for line in f_read:
+			line=line.strip()
+			sauveg.append(line)
+	f_read.close()
+	nom=sauveg[0]
+	point_aptitude=sauveg[1]
+elif pml=="non":
+	if os.path.isfile("sauv.txt")=="true":
+		os.remove("sauv.txt")
+	nom=input("Quel est ton nom ? ")
+	point_aptitude=18
+
+vie_supp=0
+force_supp=0
+armure_supp=0
+magie_supp=0
+precision_supp=0
+brutalite_supp=0
+toucher_supp=0
+technique_supp=0
+energie_supp=0
+vivacite_1=0
+vivacite_2=0
+puissance_1=0
+puissance_2=0
+resistance_1=0
+resistance_2=0
+insaisissable_1=0
+insaisissable_2=0
+insaisissable_3=0
+elementaire_1=0
+elementaire_2=0
+elementaire_3=0
+sanguinaire_1=0
+sanguinaire_2=0
+sanguinaire_3=0
 
 a=1
 while a==1:
+
+	liste_trait = []
+	with open("trait_selection.txt","r") as f_read:
+		for line in f_read:
+			line=line.strip()
+			liste_trait.append(line)
+	f_read.close()
+	liste_specialisation = []
+	with open("specialisation_selection.txt","r") as f_read:
+		for line in f_read:
+			line=line.strip()
+			liste_specialisation.append(line)			
+	f_read.close()
+
+	a=talent_variable(liste_trait,"1")
+	b=talent_variable(liste_trait,"2")
+	c=talent_variable(liste_trait,"3")
+	if str(liste_trait[2])=="1":
+		if str(liste_trait[1])=="VIVACITE":
+			if str(liste_trait[2])=="1":
+				vivacite_1=vivacite_1+1
+			if str(liste_trait[10])=="1":
+				vivacite_2=vivacite_2+1
+			if str(liste_trait[18])=="1":
+				energie_supp=energie_supp+1
+			technique_supp=technique_supp+2*a
+			magie_supp=magie_supp+6*b
+			force_supp=force_supp+6*c
+		if str(liste_trait[1])=="PUISSANCE":
+			if str(liste_trait[2])=="1":
+				puissance_1=puissance_1+1
+			if str(liste_trait[10])=="1":
+				puissance_2=puissance_2+1
+			if str(liste_trait[18])=="1":
+				energie_supp=energie_supp+1
+			technique_supp=technique_supp+3*a
+			precision_supp=precision_supp+3*b
+			brutalite_supp=brutalite_supp+10*c
+		if str(liste_trait[1])=="RESISTANCE":
+			if str(liste_trait[2])=="1":
+				resistance_1=resistance_1+1
+			if str(liste_trait[10])=="1":
+				resistance_2=resistance_2+1
+			if str(liste_trait[18])=="1":
+				energie_supp=energie_supp+1
+			technique_supp=technique_supp+2*a
+			vie_supp=vie_supp+7*b
+			armure_supp=armure_supp+6*c
+
+	if str(liste_specialisation[2])=="1":
+		if str(liste_specialisation[1])=="INSAISISSABLE":
+			if str(liste_specialisation[2])=="1":
+				insaisissable_1=insaisissable_1+1
+			if str(liste_specialisation[10])=="1":
+				insaisissable_2=insaisissable_2+1
+			if str(liste_specialisation[18])=="1":
+				insaisissable_3=insaisissable_3+1
+			technique_supp=technique_supp+2*a
+			brutalite_supp=brutalite_supp+8*b
+			toucher_supp=toucher_supp+3*c
+		if str(liste_specialisation[1])=="ELEMENTAIRE":
+			if str(liste_specialisation[2])=="1":
+				elementaire_1=elementaire_1+1
+			if str(liste_specialisation[10])=="1":
+				elementaire_2=elementaire_2+1
+			if str(liste_specialisation[18])=="1":
+				elementaire_3=elementaire_3+1
+			technique_supp=technique_supp+3*a
+			toucher_supp=toucher_supp+4*b
+			magie_supp=magie_supp+9*c
+		if str(liste_specialisation[1])=="SANGUINAIRE":
+			if str(liste_specialisation[2])=="1":
+				sanguinaire_1=sanguinaire_1+1
+			if str(liste_specialisation[10])=="1":
+				sanguinaire_2=sanguinaire_2+1	
+			if str(liste_specialisation[18])=="1":
+				sanguinaire_3=sanguinaire_3+1
+			precision_supp=precision_supp+3*a
+			toucher_supp=toucher_supp+4*b
+			force_supp=force_supp+8*c
+
+	vie=10000+vie_supp*10000//100
+	force=325+force_supp*325//100
+	armure=150+armure_supp*150//100
+	magie=100+magie_supp
+	preci=1+precision_supp
+	brut=100+brutalite_supp
+	touch=1+toucher_supp
+	tech=1+technique_supp
+	energie=3+energie_supp
+
 	choix=menu_x_choix(1,"MENU PRINCIPAL","Expédition","Talents","Quitter")
 	if str(choix)=="3":
 		a=0
@@ -508,7 +619,7 @@ while a==1:
 						input("Appuyez sur une touche lorsque vous êtes prêt...")
 						d=1
 						while d==1:
-							choix=menu_x_choix(1,"TRAITS","Vivacité (pour ceux qui aiment jouer souvent)","Puissance (pour ceux qui aiment taper fort)","Résistance (pour ceux qui ne veulent pas mourir)","Retour")
+							choix=menu_x_choix(1,"TRAITS","Vivacité (Frapper souvent mais sûrement...)","Puissance (Désolé, je ne sens pas ma force !)","Résistance (Il faut savoir encaisser pour gagner)","Retour")
 							if str(choix)=="4":
 								c=0
 								d=0
