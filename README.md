@@ -1,5 +1,14 @@
 # jeu2020
 
+
+vie = 100
+force = 0
+Armure = 0
+précision = 1 (chance de coup critique)
+Brutalité = 5 (dégats des coups critiques)
+Technique = 1 (a définir)
+
+
 frappe rapide : inflige des dégats + 1% chance rejouer
 frappe lourde : inflige des dégats + 1% cc
 bouclier : augmente l'armure + % chance de bloquer % dégats
