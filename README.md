@@ -8,6 +8,22 @@ précision = 1 (chance de coup critique)
 Brutalité = 5 (dégats des coups critiques)
 Technique = 1 (a définir)
 
+vivacité :
+- Chance de récup 1 energie avec frappe rapide
+- Chaque frappe rapide consécutive gagne +1 de force
+
+puissance :
+- 30% de chance d'ignorer l'armure avec frappe lourde
+- les coups critiques ont 70% de chance d'ignorer l'armure
+
+résistance :
+- chance de conserver son armure à la fin du tour
+- chance dégat épine quand il tape l'armure
+
+intouchable :
+- 10% esquive
+- bouclier inflige désormais les dégats de ton armure
+- Quand tu esquives gagnes de l'armure
 
 frappe rapide : inflige des dégats + 1% chance rejouer
 frappe lourde : inflige des dégats + 1% cc
